@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-h3metabatchoverlap"
+description = "Loop a long source video through MiniMax H3 with VHS Meta Batch and H3 Motion Context: prepends the previous batch's last frames to each batch so the reference video stays frame-aligned with the pinned head, and exposes the batch index for Motion Context Load/Save Latent."
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["comfyui", "minimax-h3", "video-generation", "meta-batch"]
+
+[tool.comfy]
+DisplayName = "H3 Meta Batch Overlap"
+
+[project.urls]
+Repository = "https://github.com/shisa84/ComfyUI-H3MetaBatchOverlap"
